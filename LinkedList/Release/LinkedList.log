@@ -1,20 +1,7 @@
-﻿  LinkedList.cpp
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(68,23): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Node *' (or there is no acceptable conversion)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(1917,17): message : could be 'std::unique_ptr<Node,std::default_delete<Node>> &std::unique_ptr<Node,std::default_delete<Node>>::operator =(const std::unique_ptr<Node,std::default_delete<Node>> &)'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(1809,17): message : or       'std::unique_ptr<Node,std::default_delete<Node>> &std::unique_ptr<Node,std::default_delete<Node>>::operator =(std::nullptr_t) noexcept'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(1862,17): message : or       'std::unique_ptr<Node,std::default_delete<Node>> &std::unique_ptr<Node,std::default_delete<Node>>::operator =<std::default_delete<Node>,0>(std::unique_ptr<Node,std::default_delete<Node>> &&) noexcept'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(68,23): message : while trying to match the argument list '(std::unique_ptr<Node,std::default_delete<Node>>, Node *)'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(77,23): error C2678: binary '==': no operator found which takes a left-hand operand of type 'std::unique_ptr<Node,std::default_delete<Node>>' (or there is no acceptable conversion)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(2119,17): message : could be 'bool std::operator ==<Node,std::default_delete<Node>>(const std::unique_ptr<Node,std::default_delete<Node>> &,std::nullptr_t) noexcept'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(77,23): message : or       'built-in C++ operator==(Node *, Node *)'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(77,23): message : while trying to match the argument list '(std::unique_ptr<Node,std::default_delete<Node>>, Node *)'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(81,18): error C2440: 'delete': cannot convert from 'std::unique_ptr<Node,std::default_delete<Node>>' to 'void*'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(81,10): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(83,27): error C2678: binary '==': no operator found which takes a left-hand operand of type 'std::unique_ptr<Node,std::default_delete<Node>>' (or there is no acceptable conversion)
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\memory(2119,17): message : could be 'bool std::operator ==<Node,std::default_delete<Node>>(const std::unique_ptr<Node,std::default_delete<Node>> &,std::nullptr_t) noexcept'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(83,27): message : or       'built-in C++ operator==(Node *, Node *)'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(83,27): message : while trying to match the argument list '(std::unique_ptr<Node,std::default_delete<Node>>, Node *)'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(87,18): error C2440: 'delete': cannot convert from 'std::unique_ptr<Node,std::default_delete<Node>>' to 'void*'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(87,10): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(95,18): error C2440: 'delete': cannot convert from 'std::unique_ptr<Node,std::default_delete<Node>>' to 'void*'
-C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\LinkedList\src\LinkedList.cpp(95,10): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+﻿  Menu.cpp
+  Generating code
+  1 of 25 functions ( 4.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  LinkedList.vcxproj -> C:\Users\pande\OneDrive\Documents\Visual Studio 2019\Projects\LinkedList\Release\LinkedList.exe

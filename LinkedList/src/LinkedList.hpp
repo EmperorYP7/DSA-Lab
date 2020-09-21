@@ -8,7 +8,10 @@ private:
 
 public:
 	LinkedList();
-	static void New(int&);
+	static void NewBegin(int&);
+	static void NewEnd(int&);
+	static void NewPos(int&, int&);
 	static void Delete(int&);
+	static void DeletePos(int&);
 	static void Display();
 };
